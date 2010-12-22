@@ -16,12 +16,13 @@ CGdisc(X, L, K, K.family, Y)
 }
 
 \value{
-  The function outputs a single p-value for each marker (column of X), testing whether there is a direct effect of X on Y through pathways other than X to K to Y.
+  The function outputs a single p-value for each marker (column of X), testing whether there is a direct effect of X on Y through pathways other than X to K to Y. The function also outputs an effect size estimate, which is the simple linear regression coefficient of the genetic marker on the primary outcome, after the primary outcome has been adjusted for the effect of the secondary phenotype. This estimate is appropriate for population-based data, assuming no population substructure. 
 }
 \references{Vansteelandt S. et al: On the Adjustment for Covariates in Genetic Association Studies: A Novel, Simple Principle to Infer Direct Causal Effects. Genetic Epidemiology 2009; 33(5): 394-405.}
 \author{Peter Lipman}
 \note{No missing values should appear for any variables input into the function. All variables input into the function must be numeric.
-}\examples{
+}
+\examples{
 #example
 #n<-1000				   #sample size
 #X<-rbinom(n,2,.25)			   #marker, additive

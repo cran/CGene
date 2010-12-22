@@ -1,7 +1,7 @@
 Package: CGene
 Type: Package
 Title: Causal Genetic Analysis
-Version: 1.0
+Version: 1.1
 Date: 2010-12-22
 Author: Peter Lipman
 Maintainer: Contact <pjlipman@fas.harvard.edu>
@@ -12,6 +12,6 @@ Description: Implements statistical techniques to understand the causal
         the the primary outcome with population-based data.
 License: GPL-2
 LazyLoad: yes
-Packaged: 2011-01-05 06:11:28 UTC; hornik
+Packaged: 2011-01-21 16:41:41 UTC; peterjlipman
 Repository: CRAN
-Date/Publication: 2011-01-05 06:17:20
+Date/Publication: 2011-01-21 18:34:53

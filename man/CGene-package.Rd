@@ -12,9 +12,9 @@ Implements statistical techniques to understand the causal pathways between gene
 \tabular{ll}{
 Package: \tab CGene\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
+Version: \tab 1.1\cr
 Date: \tab 2010-12-22\cr
-License: \tab What license is it under?\cr
+License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
 The functions provided allow the investigator to test if a genetic marker is associated with a primary outcome through pathways other than that of an intermediate secondary phenotype. The functions allow for the primary outcome to be (1) continuous, (2) discrete, (3) survival modeled parametrically, or (4) survival modeled semi-parametrically

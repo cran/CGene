@@ -1,7 +1,8 @@
-`CGcoxph` <-
+CGcoxph <-
 function(X,L,K,K.family,Y,Y.censured){
 	
 	p.values<-NULL
+	effects<-NULL
 	
 	X<-as.matrix(X)
 	L<-as.matrix(L)
@@ -45,10 +46,13 @@ function(X,L,K,K.family,Y,Y.censured){
 		sigma<-var(T.tilda)
 		test.stat<-T^2/(length(K)*sigma)
 		p.values[i]<-1-pchisq(test.stat,1)
+		effects[i]<-summary(lm(t.prime~X1))$coefficients[2,1]
 		
 		}
 	
-	return(p.values)
+	final<-rbind(effects,p.values)
+	rownames(final)<-c("effect size","p values")
+	return(final)
 	
 	}
 

@@ -17,7 +17,7 @@ CGcoxph(X, L, K, K.family, Y, Y.censured)
 }
 
 \value{
-  The function outputs a single p-value for each marker (column of X), testing whether there is a direct effect of X on Y through pathways other than X to K to Y.
+  The function outputs a single p-value for each marker (column of X), testing whether there is a direct effect of X on Y through pathways other than X to K to Y. The function also outputs an effect size estimate, which is the simple linear regression coefficient of the genetic marker on the primary outcome, after the primary outcome has been adjusted for the effect of the secondary phenotype. This estimate is appropriate for population-based data, assuming no population substructure. 
 }
 \references{Lipman P. et al: Inferring Genetic Causal Effects on Survival Data with Associated Endo-Phenotypes. Genetic Epidemiology 2011 (in press).}
 \author{Peter Lipman}
