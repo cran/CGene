@@ -6,7 +6,7 @@
 Causal Genetic Analysis
 }
 \description{
-Implements statistical techniques to understand the causal pathways between genetic markers and a primary outcome when an intermediate phenotype is also associated with both the marker the the primary outcome with population-based data.
+Implements statistical techniques to understand the causal pathways between genetic markers and a primary outcome when an intermediate phenotype is also associated with both the marker and the primary outcome with population-based data.
 }
 \details{
 \tabular{ll}{
@@ -26,6 +26,7 @@ Maintainer: Contact <pjlipman@fas.harvard.edu>
 }
 \references{
 Vansteelandt S. et al: On the Adjustment for Covariates in Genetic Association Studies: A Novel, Simple Principle to Infer Direct Causal Effects. Genetic Epidemiology 2009; 33(5): 394-405.
+
 Lipman P. et al: Inferring Genetic Causal Effects on Survival Data with Associated Endo-Phenotypes. Genetic Epidemiology 2011 (in press).
 }
 

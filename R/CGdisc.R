@@ -9,13 +9,13 @@ function(X,L,K,K.family,Y){
 	
 	for(i in 1:ncol(X)){
 		
-		X1<-X[,i]
+		X1<-X[,i]-mean(X[,i],na.rm=T)
 		
 		glmY<-glm(Y~K+X1+L,family=poisson)
 		
 		mu.i<-fitted.values(glmY)
 			
-		Y.tilde<-Y*exp(-coef(glmY)[2]*K)-mu.i
+		Y.tilde<-Y*exp(-coef(glmY)[2]*K)+mu.i
 		eps<-residuals(glmY,type="deviance")
 		
 		glmK<-suppressWarnings(glm(K~X1+L,family=K.family,weights=mu.i))

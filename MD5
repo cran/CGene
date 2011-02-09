@@ -1,0 +1,11 @@
+ca0b344a95a2cad63c3565d75e2addc7 *DESCRIPTION
+16237d09798c445d2d9977d4cfc53a8b *NAMESPACE
+18e529c429c685e9df9e862cdc49ccb8 *R/CGcont.R
+72a4e8b92587786d852192117bddcc33 *R/CGcoxph.R
+a000411af38f70a2fdd30a6b8e987618 *R/CGdisc.R
+a0c97b6132e43f7731bfe2a47634a11f *R/CGsurvreg.R
+2b2bc46cbbebdcb2a14fc051f708862b *man/CGcont.Rd
+98a69e634b44b73b2c0e98789715c5ec *man/CGcoxph.Rd
+d9c108b8963287d83833aee2623e3715 *man/CGdisc.Rd
+4da2faa7098b47b8169de4ddfab7f9c2 *man/CGene-package.Rd
+1bdde96161f7b67aac4a7499a37ef2df *man/CGsurvreg.Rd
